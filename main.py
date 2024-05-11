@@ -82,7 +82,7 @@ while True:
             studentInfo = db.reference(f'Students/{id}').get()
             print(studentInfo)
 
-
+SDFDMUJUF
 
     counter+=1
 
