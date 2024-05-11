@@ -81,7 +81,7 @@ while True:
         if counter ==1:
             studentInfo = db.reference(f'Students/{id}').get()
             print(studentInfo)
-
+AASD
 
 
     counter+=1
