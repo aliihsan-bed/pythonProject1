@@ -81,26 +81,7 @@ while True:
         if counter ==1:
             studentInfo = db.reference(f'Students/{id}').get()
             print(studentInfo)
-        cv2.putText(imgBackground, str(studentInfo['total']),(861,125),
-                    cv2.FONT_HERSHEY_COMPLEX,1,(255,255,255),1)
 
-        cv2.putText(imgBackground, str(studentInfo['name']), (808, 445),
-                    cv2.FONT_HERSHEY_COMPLEX, 1, (50, 50, 50), 1)
-
-        cv2.putText(imgBackground, str(studentInfo['major']), (1006, 550),
-                    cv2.FONT_HERSHEY_COMPLEX, 0.5, (255, 255, 255), 1)
-
-        cv2.putText(imgBackground, str(id), (1006, 493),
-                    cv2.FONT_HERSHEY_COMPLEX, 0.5, (255, 255, 255), 1)
-
-        cv2.putText(imgBackground, str(studentInfo['standing']), (910, 625),
-                    cv2.FONT_HERSHEY_COMPLEX, 0.6, (100, 100, 100), 1)
-
-        cv2.putText(imgBackground, str(studentInfo['year']), (1025, 625),
-                    cv2.FONT_HERSHEY_COMPLEX, 0.6, (100, 100, 100), 1)
-
-        cv2.putText(imgBackground, str(studentInfo['starting']), (1125, 625),
-                    cv2.FONT_HERSHEY_COMPLEX, 0.6, (100, 100, 100), 1)
 
 
     counter+=1
