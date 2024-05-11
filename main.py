@@ -81,8 +81,7 @@ while True:
         if counter ==1:
             studentInfo = db.reference(f'Students/{id}').get()
             print(studentInfo)
-
-        cv2.putText(imgBackground,str(studentInfo['total']),(861,125),
+        cv2.putText(imgBackground, str(studentInfo['total']),(861,125),
                     cv2.FONT_HERSHEY_COMPLEX,1,(255,255,255),1)
 
         cv2.putText(imgBackground, str(studentInfo['name']), (808, 445),
@@ -112,3 +111,5 @@ while True:
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
+
+
