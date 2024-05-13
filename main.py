@@ -73,17 +73,16 @@ while True:
             bbox = 55 + x1, 162 + y1, x2 - x1, y2 - y1
             imgBackground = cvzone.cornerRect(imgBackground, bbox, rt=0)
             id= studentIds[matchIndex]
-
             if counter == 0:
-                counter= 1
-                modeType= 1
-    if counter!=0:
+                counter = 1
+                modeType = 1
+    if counter!= 0:
         if counter ==1:
             studentInfo = db.reference(f'Students/{id}').get()
             print(studentInfo)
-g
 
-    counter+=1
+
+        counter+=1
 
 
 
