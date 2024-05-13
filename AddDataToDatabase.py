@@ -13,8 +13,8 @@ data = {
         {
             "name":"ali",
             "major" : "yazilim",
-            "starting" : 2020,
-            "total" : 4,
+            "starting_year" : 2020,
+            "total_attendance" : 4,
             "standing":"G",
             "year": "4",
             "last_attendance_time" : "2022-12-12 00:54:34"
@@ -23,8 +23,8 @@ data = {
         {
             "name":"munzir",
             "major" : "yazilim",
-            "starting" : 2021,
-            "total" : 5,
+            "starting_year" : 2021,
+            "total_attendance" : 5,
             "standing":"G",
             "year": "5",
             "last_attendance_time" : "2022-12-13 00:54:34"
@@ -33,8 +33,8 @@ data = {
         {
             "name":"elon",
             "major" : "araba",
-            "starting" : 2022,
-            "total" : 6,
+            "starting_year" : 2022,
+            "total_attendance" : 6,
             "standing":"G",
             "year": "6",
             "last_attendance_time" : "2022-12-14 00:54:34"
