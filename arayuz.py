@@ -91,7 +91,7 @@ def show_data_entry_form(file_path):
 
 def new_user():
     file_path = filedialog.askopenfilename(
-        title="Resim Dosyası Seçinn",
+        title="Resim Dosyası Seçinnn",
         filetypes=[("Image Files", "*.jpg;*.jpeg;*.png;*.bmp;*.gif")]
     )
     if file_path:
