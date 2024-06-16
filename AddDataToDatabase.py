@@ -38,7 +38,18 @@ data = {
             "standing":"G",
             "year": "6",
             "last_attendance_time" : "2022-12-14 00:54:34"
+        },
+    "111111":
+        {
+            "name": "ronaldo",
+            "major": "futbol",
+            "starting_year": 2023,
+            "total_attendance": 6,
+            "standing": "G",
+            "year": "6",
+            "last_attendance_time": "2022-12-15 00:54:34"
         }
+
 }
 
 for key,value in data.items():
